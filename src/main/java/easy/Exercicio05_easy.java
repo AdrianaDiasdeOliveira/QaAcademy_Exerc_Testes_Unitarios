@@ -18,7 +18,7 @@ public class Exercicio05_easy {//Inicio
     }
 
     public Integer calcularMedia(int primeiroValor, int segundoValor, int terceiroValor) {
-        int media = calcularMultiplicacao(primeiroValor, segundoValor, terceiroValor) / 3; // Calculo media
+        int media = (primeiroValor + segundoValor + terceiroValor) / 3; // Calculo media
         return media;
     }
 

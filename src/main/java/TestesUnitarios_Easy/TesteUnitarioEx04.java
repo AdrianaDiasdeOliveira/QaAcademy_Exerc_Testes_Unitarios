@@ -1,6 +1,7 @@
 package TestesUnitarios_Easy;
 
 import easy.Exercicio04_easy;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class TesteUnitarioEx04 {
@@ -8,7 +9,6 @@ public class TesteUnitarioEx04 {
 
     public void TestcalcularDobro() {
         Exercicio04_easy exercicio04_easy = new Exercicio04_easy();
-        Integer numeroDigitado = 100;
-        System.out.println(exercicio04_easy.calcularDobro(numeroDigitado));
+        Assert.assertEquals("4", exercicio04_easy.calcularDobro(2).toString());
     }
 }

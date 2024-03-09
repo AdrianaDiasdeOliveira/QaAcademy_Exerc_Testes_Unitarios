@@ -12,7 +12,5 @@ public class TesteUnitarioEx02 {
         String palavraDigitada ="TesteUnitario";
         Assert.assertEquals("Você Digitou:" + palavraDigitada,exercicio02_easy.exibirPalavra(palavraDigitada));
 
-
-
-    }
+   }
 }
