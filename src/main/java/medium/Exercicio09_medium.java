@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Exercicio09_medium {
 
-    public void exibirNomeENumeracao(String [] nomeAlunos, int [] numeroAlunos) {
+    public void exibirNomeENumeracao(String [] nomeAlunos, Integer [] numeroAlunos) {
         if (nomeAlunos[0] == null || nomeAlunos[0].isEmpty()) {
             System.out.println("Não há alunos para serem mostrados");
         } else {
@@ -14,8 +14,8 @@ public class Exercicio09_medium {
         }
     }
 
-    public int [] atribuirNumeracaoAlunos(String[] nomeAlunos) {
-        int []numeroAlunos = new int[nomeAlunos.length];
+    public Integer [] atribuirNumeracaoAlunos(String[] nomeAlunos) {
+        Integer []numeroAlunos = new Integer[nomeAlunos.length];
         Random random = new Random();
         for (int i = 0; i < nomeAlunos.length; i++) {
             numeroAlunos[i] = random.nextInt(100);
