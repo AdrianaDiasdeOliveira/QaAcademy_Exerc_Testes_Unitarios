@@ -2,7 +2,7 @@ package easy;
 
 public class Exercicio07_easy {
 
-    public double calcularInns(double salario) {
+    public Double calcularInns(double salario) {
 
         double inss = 0;
         if (salario <= 1320.00) {
